@@ -1,27 +1,49 @@
-Node
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
 
-node_modules/ npm-debug.log yarn-debug.log yarn-error.log pnpm-debug.log
+# Environment variables
+.env 
+.env.local 
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-Environment variables
+# Build output
+dist/ 
+build/ 
+.next/ 
+out/
 
-.env .env.local .env.*.local
+# Logs
+logs/ 
+*.log
 
-Build output
+$OS / Editor
+.DS_Store 
+Thumbs.db 
+.vscode/ 
+.idea/
 
-dist/ build/ .next/ out/
-
-Logs
-
-logs/ *.log
-
-OS / Editor
-
-.DS_Store Thumbs.db .vscode/ .idea/
-
-TypeScript
-
+#TypeScript
 *.tsbuildinfo
 
-Misc
-
+#Misc
 .cache/
+
+# Terraform
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*override.tf
+*override.tf.json
+.terraformrc
+terraform.rc
